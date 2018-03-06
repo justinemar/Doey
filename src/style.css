@@ -16,7 +16,8 @@ html{
   background-size: cover;
 }
 input{
-	color: #ffffff;
+    color: #000000;
+    padding: 8px;
 }
 .modal-parent{
     min-height: 500px;
@@ -118,6 +119,8 @@ input{
 }
 
 .set{
+    margin: 10px;
+    vertical-align: top;
     max-width: 350px;
     padding: 25px;
     color: #ffffff;
@@ -133,14 +136,20 @@ input{
 }
 
 .list{
-  cursor: ;
+  cursor: pointer;
 }
 .a-reminder{
     padding: 5px;
     margin: 5px;
+    transition: all 0.5s linear;
+    opacity: 0;
 }
 .a-reminder:hover{
-    outline: 1px solid rgba(156, 156, 156, 0.16)
+    outline: 1px solid rgba(156, 156, 156, 0.16);
+
+}
+.a-reminder:not(:empty){    
+    opacity: 1;
 }
 .control{
     margin: 5px;
