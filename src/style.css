@@ -19,6 +19,10 @@ input{
     color: #000000;
     padding: 8px;
 }
+
+#name-setting-input{
+    color: #ffffff;
+}
 .modal-parent{
     min-height: 500px;
     background: rgba(14, 14, 14, 0.38);
